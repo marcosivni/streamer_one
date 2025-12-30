@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+dist-ssr
+*.local
+
+# IDES
+.vscode/
+.idea/
+
+# Backend specific
+server/venv/
+server/.env
+server/__pycache__/
+
+# Frontend specific
+client/node_modules/
+client/dist/
+client/.env
